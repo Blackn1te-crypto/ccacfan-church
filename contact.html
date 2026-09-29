@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Chiedza Chevanotenda Apostolic Church</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <img class="brand__logo" src="images/logo-shield.png" alt="CCACFAN" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'crest',textContent:'CC'}))">
+      <div class="brand-text">
+        <strong>Chiedza Chevanotenda</strong>
+        <span>Apostolic Church · For All Nations</span>
+      </div>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="is-active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero">
+  <div class="page-hero__glow" aria-hidden="true"></div>
+  <div class="wrap">
+    <p class="eyebrow eyebrow--light">Get in Touch</p>
+    <h1>Contact Us</h1>
+    <p class="page-hero__lead">
+      Have a question, prayer request, or want to visit an assembly?
+      We would love to hear from you.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid">
+
+    <aside>
+      <ul class="info-list">
+        <li>
+          <strong>Founder's Contact</strong>
+          <a href="tel:0713605539">0713 605 539</a>
+        </li>
+        <li>
+          <strong>Church Name</strong>
+          Chiedza Chevanotenda Apostolic Church<br>
+          <em>For All Nations</em>
+        </li>
+        <li>
+          <strong>Founded</strong>
+          7 November 2021
+        </li>
+        <li>
+          <strong>Assemblies</strong>
+          Bhora · Murehwa · Musami · Zorizozo<br>
+          Mukombami · Mwanza · St John (Chikwaka)<br>
+          Eastview · Hoply · Gejo RaRubi
+        </li>
+        <li>
+          <strong>Motto</strong>
+          Love · Gospel · Humility
+        </li>
+      </ul>
+    </aside>
+
+    <form class="contact-form" action="#" method="post">
+      <div class="form-row">
+        <div class="field">
+          <label for="name">Your Name *</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" type="tel">
+        </div>
+      </div>
+      <div class="field">
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email">
+      </div>
+      <div class="field">
+        <label for="assembly">Nearest Assembly</label>
+        <select id="assembly" name="assembly">
+          <option>Bhora</option>
+          <option>Murehwa</option>
+          <option>Musami</option>
+          <option>Zorizozo</option>
+          <option>Mukombami</option>
+          <option>Mwanza</option>
+          <option>St John (Chikwaka)</option>
+          <option>Eastview</option>
+          <option>Hoply</option>
+          <option>Gejo RaRubi</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="subject">Enquiry Type</label>
+        <select id="subject" name="subject">
+          <option>General Enquiry</option>
+          <option>Prayer Request</option>
+          <option>Visiting a Service</option>
+          <option>Wedding / Baptism</option>
+          <option>Funeral / Memorial</option>
+          <option>Partnership / Ministry</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </div>
+      <button class="btn btn--primary" type="submit">Send Message</button>
+      <p class="form-note">* Required. Or call the Founder directly at <a href="tel:0713605539">0713 605 539</a>.</p>
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img class="footer-logo" src="images/logo-shield.png" alt="CCACFAN" onerror="this.style.display='none'">
+        <h3>Chiedza Chevanotenda Apostolic Church</h3>
+        <p>For All Nations — a Spirit-filled, Bible-believing church founded on 7 November 2021.</p>
+        <p class="footer-motto">Love · Gospel · Humility</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Assemblies</h3>
+        <ul>
+          <li>Bhora · Murehwa · Musami</li>
+          <li>Zorizozo · Mukombami</li>
+          <li>Mwanza · St John (Chikwaka)</li>
+          <li>Eastview · Hoply · Gejo RaRubi</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul>
+          <li><strong>Founder</strong><br><a href="tel:0713605539">0713 605 539</a></li>
+          <li>For All Nations</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year">2025</span> Chiedza Chevanotenda Apostolic Church. All rights reserved.</span>
+      <span>Crafted by <strong>Pardon Katsande</strong> — BL@CKN1TE · The Incisive Tri-Hat Hacker</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
